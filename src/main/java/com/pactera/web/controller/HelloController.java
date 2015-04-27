@@ -16,6 +16,8 @@ public class HelloController {
 		if (!StringUtils.isEmpty(name)) {
 			mav.addObject("hello", "Hello, " + name + "!");
 		}
+		
+		// test
 
 		return mav;
 	}
