@@ -12,16 +12,19 @@ public class Department {
 
 	@Id
 	@GeneratedValue
-	@Column(name = "deptno")
-	private Integer id;
+	private Integer deptno;
 
 	@Column(name = "dname")
 	private String deptName;
 
 	private String loc;
 
-	public Integer getId() {
-		return id;
+	public Integer getDeptno() {
+		return deptno;
+	}
+
+	public void setDeptno(Integer deptno) {
+		this.deptno = deptno;
 	}
 
 	public String getDeptName() {
@@ -38,10 +41,6 @@ public class Department {
 
 	public void setLoc(String loc) {
 		this.loc = loc;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
 	}
 
 }
