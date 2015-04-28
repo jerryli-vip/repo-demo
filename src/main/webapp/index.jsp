@@ -4,6 +4,9 @@
 	<br>
 
 	<a href="sayHello?name=Jerry">sayHello</a>
+	<br>
+	
+	<a href="list">department list</a>
 
 </body>
 </html>

@@ -24,6 +24,10 @@ public class Department {
 		return id;
 	}
 
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
 	public String getDeptName() {
 		return deptName;
 	}
@@ -38,10 +42,6 @@ public class Department {
 
 	public void setLoc(String loc) {
 		this.loc = loc;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
 	}
 
 }
